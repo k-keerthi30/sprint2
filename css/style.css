@@ -1,0 +1,239 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* index */
+
+.navbar-brand-text {
+    font-size: 20px;
+    font-style:bold;
+}
+
+  
+    .img-diamond {
+    width: 100%;
+        height: auto;
+        margin-top: 1%;
+        margin-right: 2%;
+      }
+      
+.content-text {
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 30px;
+    font-style: italic;
+}
+
+hr {
+   border: none;
+   height: 2px;
+   background-color: #ccc;
+   margin: 20px 0;
+}
+
+.haram-images {
+    width: 23vw;
+    height:auto;
+    display: inline;
+   margin-bottom: 2%;
+   margin-left: 2%;
+
+}
+
+.silver-images {
+    width: 23vw;
+    height:auto;
+    display: inline;
+    margin-bottom: 2%;
+
+}
+
+.antique-images {
+    width: 23vw;
+    height:auto;
+    display: inline;
+    margin-bottom: 2%;
+}
+
+.chains-images {
+    max-width: 23vw;
+    height:auto;
+    display: inline;
+    margin-bottom: 2%;
+}
+/* about page */
+.page {
+    background-color: beige;
+    }
+
+.purity-content h3 {
+    font-style: italic;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.purity-content p {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.purity-content button {
+    background-color: cornflowerblue;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.img-purity {
+    width: 90%;
+    height: auto;
+}
+
+.img-virtual {
+    width: 90%;
+    height:auto;
+    margin-top: 3%;
+}
+
+.video-content h3 {
+    margin-top: 7%;
+    font-style: italic;
+
+}
+
+.video-content p {
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+.video-content button {
+    background-color: cornflowerblue;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.customized-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    font-style: italic;
+}
+
+.img-customized {
+    width: 90%;
+    margin-bottom: 2%;  
+}
+
+
+.personalised-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    font-style: italic;
+}
+
+.img-fluid {
+    width: 90%;
+    margin-bottom: 2%;  
+}
+
+
+/* product page */
+
+.productbackground {
+    background-color: bisque;
+}
+
+
+
+
+/* addproduct */
+
+.btn {
+    margin-bottom: 2%;
+    background-color: palevioletred;
+}
+
+.head {
+    font-size: 30px;
+}
+
+/* footer page */
+
+.footerpage {
+    background-color: darkgoldenrod;
+}
+
+.footerimage {
+    margin-top: 7%;
+}
+
+.text  {
+    margin-top: 10%;
+    font-weight: 80;  
+}
+
+.img-android {
+    width: 40%;
+    margin-top: 3%;
+}
+
+.img-apple {
+    width: 40%;
+    margin-top: 3%;
+}
+
+.img-payment {
+    width: 80%;
+    height: auto;
+}
+
+
+.listofabout, .listofjewellery, .listofmedia, .listofpolicies {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .listofabout li {
+    margin-bottom: 5px;
+  }
+  
+  .listofabout li a {
+    text-decoration: none;
+    color: white;
+  }
+
+   
+  .listofjewellery li {
+    margin-bottom: 5px;
+  }
+  
+  .listofjewellery li a {
+    text-decoration: none;
+    color: white;
+  }
+
+   
+  .listofmedia li {
+    margin-bottom: 5px;
+  }
+  
+  .listofmedia li a {
+    text-decoration: none;
+    color: white;
+  }
+
+   
+  .listofpolicies li {
+    margin-bottom: 5px;
+  }
+  
+  .listofpolicies li a {
+    text-decoration: none;
+    color: white;
+  }
