@@ -1,22 +1,29 @@
-
+// Initialize a new TaskManager with currentId set to 0
 const productController = new ProductsController(0);
 
-const newItemForm = document.querySelector('#newItemForm');
+// Select the New Task Form
+const jewelleryProductForm = document.querySelector('#jewelleryProductForm');
 
+// Add an 'onsubmit' event listener
 newItemForm.addEventListener('submit', (event) => {
 
+    // Prevent default action
     event.preventDefault();
 
-    const newItemName = document.querySelector('#newItemName');
-    const newItemDescription = document.querySelector('#newItemDescription');
-    const newItemImageUrl = document.querySelector('#newItemImageUrl');
+    // Select the inputs
+    const jewelleryProductName = document.querySelector('#jewelleryProductName');
+    const jewelleryProductDescription = document.querySelector('#jewelleryProductDescription');
+    const jewelleryProductImageUrl = document.querySelector('#jewelleryProductImageUrl');
 
-    const name = newItemName.value;
-    const description = newItemDescription.value;
-    const imageUrl = newItemImageUrl.value;
+    // Get the values of the inputs
+    const name = jewelleryProductName.value;
+    const description = jewelleryProductDescription.value;
+    const imageUrl = jewelleryProductImageUrl.value;
 
+    // Add the task to the task manager
     productController.addProduct(name, description, imageUrl);
 
-    newItemName.value = '';
-    newItemDescription.value = '';
+    // Clear the form
+    jewelleryProductName.value = '';
+    jewelleryProductDescription.value = '';
 });
